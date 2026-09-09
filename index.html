@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,75 +10,85 @@
     <title>portfolio_1</title>
   </head>
   <body class="bg-beige text-amber-950 ">
+    <!--NAVBAR-->
     <header class="max-w-6xl mx-auto">
       <nav>
         <ul class="flex gap-x-4 gap-y-1 p-10">
           <li class="mr-auto">
             <a href="/"  class="text-2xl font-bold hover:text-amber-700 transition-colors">Mashrifa</a> <!--/ is used to go back to the home page-->
           </li>
-          <li class="px-4">
+          <li class="px-2">
             <a href="https://www.linkedin.com/in/mashrifa" class=" hover:text-amber-700 transition-colors"  target="_blank" rel="noopener no-referrer"> <!--target="_blank" is used to open the link in a new tab and rel="noopener no-referrer" is used for security reasons-->
             <i class="fa-brands fa-linkedin"></i>
             <span class="hidden md:inline">Linkedin</span> </a>
           </li>
-          <li class="border-2 border-amber-950 text-beige bg-amber-950 px-4 rounded-2xl">
+          <li class="px-2">
+            <a href="https://github.com/Mashrifa13" class=" hover:text-amber-700 transition-colors"  target="_blank" rel="noopener no-referrer"> <!--target="_blank" is used to open the link in a new tab and rel="noopener no-referrer" is used for security reasons-->
+            <i class="fa-brands fa-github"></i>
+            <span class="hidden md:inline">Github</span> </a>
+
+          </li> 
+          <li class="border-2 border-amber-950 text-beige bg-amber-950 px-2 rounded-2xl">
             <a href="mailto:mashrifa1610@gmail.com" class=" hover:text-amber-700 transition-colors"> <!--mailto: is used to open the default email client with the specified email address-->
             <i class="fa-solid fa-envelope"></i>
             <span class="hidden md:inline">Email</span></a></li>
+           
         </ul>
       </nav>
    </header>
+   <!--HERO-SECTION-->
    <section class="max-w-5xl mx-auto items-center flex flex-col md:flex-row  mt-2 mb-10 p-5">
     <div class="mx-3">
       <h2 class="text-5xl font-bold mb-4">Hi, I'm Mashrifa</h2>
       <p class="text-lg"> I am a B.Tech Computer Science and Engineering graduate, currently working as an IT Intern at Adnovs Global. During my internship, I have gained hands-on experience in Manual Testing, including test case execution, defect identification, validation, and web application testing. Alongside my testing experience, I am currently learning HTML and CSS to strengthen my understanding of web technologies and develop a better understanding of how web applications are structured and designed.</p>
     <div class="mt-5 items-center">
-        <a href="#skills" class="p-2 border-2 rounded-2xl m-1  hover:text-amber-700 transition-colors">  
+        <a href="#skills" class="p-2 border-2 rounded-2xl m-1 hover:text-amber-700 transition-colors">  
           <i class="fa-solid fa-code"></i>
           <span>Skills</span>
         </a>
-        <a href="#education" class="p-2 border-2 rounded-2xl m-1">  
+        <a href="#education" class="p-2 border-2 rounded-2xl m-1 hover:text-amber-700 transition-colors">  
           <i class="fa-solid fa-graduation-cap"></i>
           <span>Education</span>
         </a>
-        <a href="#contact" class="p-2 border-2 rounded-2xl m-1">
+        <a href="#contact" class="p-2 border-2 rounded-2xl m-1 hover:text-amber-700 transition-colors">
           <i class="fa-solid fa-envelope"></i>
           <span>Contact</span>
         </a>
     </div>
     </div>
-    <img src="/me1.jpeg" class="rounded-full size-75 object-cover p-5 ">
+    <img src="/me1.jpeg" class="rounded-full size-75 object-cover p-5 mt-5 ">
    </section>
-   <section class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+   <!--SKILLS-SECTION-->
+   <section id="skills" class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
      <h2 class="text-3xl font-bold col-span-full text-center">Skills</h2>
-      <div class="flex justify-center  items-center gap-4 border-1">
+      <div class="flex justify-center  items-center gap-4 border-1 rounded-lg">
         <img src="/3.png" alt="testing logo" class="size-10 p-1">
         <span>Manual testing</span>
       </div>
-      <div class="flex justify-center items-center gap-4 border-1">
+      <div class="flex justify-center items-center gap-4 border-1 rounded-lg">
         <img src="/1.jpg" alt="html logo" class="size-10 p-1">
         <span>
           HTML
         </span>
       </div>
-      <div class="flex justify-center items-center gap-4 border-1">
+      <div class="flex justify-center items-center gap-4 border-1 rounded-lg">
         <img src="/2.jpg" alt="css logo" class="size-10 p-1">
         <span>
           CSS
         </span>
       </div>
     </section>
-    
-    <section class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-1">
+    <!--EDUCATION-SECTION-->
+    <section id="education" class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-1">
         <h2 class="text-3xl font-bold col-span-full text-center">Education</h2>
         <ul>
-          <li class="border-1  rounded-2xl p-4 m-4">
+          <li class="border-2 shadow-lg rounded-2xl p-4 m-4">
             <h4 class="text-2xl font-bold">Bachelor of Technology (B.Tech)</h4>
             <h5 class="text-lg font-semibold text-red-900">Computer Science and Engineering</h5>
             <p class="college">Sree Narayana Guru College of Engineering and Technology, Payyannur</p>
             <p class="date">2022-2026</p>
           </li>
-          <li class="border-1 rounded-2xl p-4 m-4">
+          <li class="border-2 rounded-2xl p-4 m-4 shadow-lg">
             <h4 class="text-2xl font-bold">Higher Secondary Education</h4>
             <h5 class="text-lg font-semibold text-red-900">Science Stream</h5>
             <p class="college">Government Higher Secondary School, Cherukunnu</p>
@@ -86,6 +96,31 @@
           </li>
         </ul>   
      </section>
+     <!--CONTACT-SECTION-->
+     <section id="contact" class="max-w-5xl mx-auto p-5 mb-80 ">
+       <h2 class="text-3xl font-bold mb-4">Contact</h2>
+         <div class="grid gap-5 grid-cols-1 md:grid-cols-2 p-5 border-2 shadow-lg rounded-2xl">
+          <div>
+            <p class="mb-2 p-2 md:p-6"> <i class="fa-solid fa-envelope"></i>
+            <span>mashrifa1610@gmail.com</span></p>
+           <p class="mb-2 p-2 md:px-6"><i class="fa-brands fa-linkedin"></i>
+            <span>linkedin.com/in/mashrifa</span></P>
+            </div>
+
+         <form class="grid grid-cols-1">
+                <label for="name">Name</label>
+                <input class="border-1 rounded-lg mt-1 p-1" type="text" id="name">   <!--for in label must match with id in input element-->
+                
+                <label for="email">Email</label>
+                <input class="border-1 rounded-lg mt-1 p-1" type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea class="border-1 resize-none rounded-lg mt-1 p-1" id="message" rows="10" cols="30"></textarea>
+
+                <button class="border-1 mt-4 rounded-lg w-50 justify-self-center bg-amber-950 text-beige hover:bg-amber-700 transition-colors shadow-2xl" type="submit">Send</button>
+              </form>
+            </div>
+       </section>
   
     
 
