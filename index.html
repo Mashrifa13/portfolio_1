@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>portfolio_1</title>
+  </head>
+  <body class="bg-beige text-amber-950 ">
+    <header class="max-w-6xl mx-auto">
+      <nav>
+        <ul class="flex gap-x-4 gap-y-1 p-10">
+          <li class="mr-auto">
+            <a href="/"  class="text-2xl font-bold hover:text-amber-700 transition-colors">Mashrifa</a> <!--/ is used to go back to the home page-->
+          </li>
+          <li class="px-4">
+            <a href="https://www.linkedin.com/in/mashrifa" class=" hover:text-amber-700 transition-colors"  target="_blank" rel="noopener no-referrer"> <!--target="_blank" is used to open the link in a new tab and rel="noopener no-referrer" is used for security reasons-->
+            <i class="fa-brands fa-linkedin"></i>
+            <span class="hidden md:inline">Linkedin</span> </a>
+          </li>
+          <li class="border-2 border-amber-950 text-beige bg-amber-950 px-4 rounded-2xl">
+            <a href="mailto:mashrifa1610@gmail.com" class=" hover:text-amber-700 transition-colors"> <!--mailto: is used to open the default email client with the specified email address-->
+            <i class="fa-solid fa-envelope"></i>
+            <span class="hidden md:inline">Email</span></a></li>
+        </ul>
+      </nav>
+   </header>
+   <section class="max-w-5xl mx-auto items-center flex flex-col md:flex-row  mt-2 mb-10 p-5">
+    <div class="mx-3">
+      <h2 class="text-5xl font-bold mb-4">Hi, I'm Mashrifa</h2>
+      <p class="text-lg"> I am a B.Tech Computer Science and Engineering graduate, currently working as an IT Intern at Adnovs Global. During my internship, I have gained hands-on experience in Manual Testing, including test case execution, defect identification, validation, and web application testing. Alongside my testing experience, I am currently learning HTML and CSS to strengthen my understanding of web technologies and develop a better understanding of how web applications are structured and designed.</p>
+    <div class="mt-5 items-center">
+        <a href="#skills" class="p-2 border-2 rounded-2xl m-1  hover:text-amber-700 transition-colors">  
+          <i class="fa-solid fa-code"></i>
+          <span>Skills</span>
+        </a>
+        <a href="#education" class="p-2 border-2 rounded-2xl m-1">  
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Education</span>
+        </a>
+        <a href="#contact" class="p-2 border-2 rounded-2xl m-1">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+    </div>
+    </div>
+    <img src="/me1.jpeg" class="rounded-full size-75 object-cover p-5 ">
+   </section>
+   <section class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+     <h2 class="text-3xl font-bold col-span-full text-center">Skills</h2>
+      <div class="flex justify-center  items-center gap-4 border-1">
+        <img src="/3.png" alt="testing logo" class="size-10 p-1">
+        <span>Manual testing</span>
+      </div>
+      <div class="flex justify-center items-center gap-4 border-1">
+        <img src="/1.jpg" alt="html logo" class="size-10 p-1">
+        <span>
+          HTML
+        </span>
+      </div>
+      <div class="flex justify-center items-center gap-4 border-1">
+        <img src="/2.jpg" alt="css logo" class="size-10 p-1">
+        <span>
+          CSS
+        </span>
+      </div>
+    </section>
+    
+    <section class="max-w-5xl mx-auto p-5 grid gap-5 grid-cols-1">
+        <h2 class="text-3xl font-bold col-span-full text-center">Education</h2>
+        <ul>
+          <li class="border-1  rounded-2xl p-4 m-4">
+            <h4 class="text-2xl font-bold">Bachelor of Technology (B.Tech)</h4>
+            <h5 class="text-lg font-semibold text-red-900">Computer Science and Engineering</h5>
+            <p class="college">Sree Narayana Guru College of Engineering and Technology, Payyannur</p>
+            <p class="date">2022-2026</p>
+          </li>
+          <li class="border-1 rounded-2xl p-4 m-4">
+            <h4 class="text-2xl font-bold">Higher Secondary Education</h4>
+            <h5 class="text-lg font-semibold text-red-900">Science Stream</h5>
+            <p class="college">Government Higher Secondary School, Cherukunnu</p>
+            <p class="date">2020-2022</p>
+          </li>
+        </ul>   
+     </section>
+  
+    
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

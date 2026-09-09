@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme{
+  --color-beige: #faf2d7; 
+}
